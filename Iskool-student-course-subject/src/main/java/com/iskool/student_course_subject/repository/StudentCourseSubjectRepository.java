@@ -12,4 +12,5 @@ public interface StudentCourseSubjectRepository extends JpaRepository<StudentCou
 
 	public Optional<StudentCourseSubject> findById(String student_id);
 	
+	
 }
